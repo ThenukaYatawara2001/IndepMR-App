@@ -19,6 +19,7 @@ This release corresponds to the version of the software described in the accompa
 
 ## File structure
 
+```
 indepmr/
 ├── app.R                          # Entry point
 ├── global.R                       # Package loading, data paths, DATA object
@@ -27,15 +28,16 @@ indepmr/
 │   ├── Dataset02.rds              # Pre-extracted SNP data
 │   └── Dataset03.csv              # EFO ontology token matrix
 └── R/
-├── 00_utils.R                 # JWT management, API wrappers
-├── 01_cache_helpers.R         # On-disk caching
-├── 02_load_data.R             # Data loading and standardisation
-├── 03_independence_engine.R   # Ancestry NLP pipeline
-├── 04_search_helpers.R        # GWAS Catalog search logic
-├── 05_search_module.R         # Reusable Shiny search module
-├── 06_mr_helpers.R            # MR estimation wrappers
-├── 08_local_instruments.R     # Local SNP retrieval
-└── server_original.R          # Shiny server function
+    ├── 00_utils.R                 # JWT management, API wrappers
+    ├── 01_cache_helpers.R         # On-disk caching
+    ├── 02_load_data.R             # Data loading and standardisation
+    ├── 03_independence_engine.R   # Ancestry NLP pipeline
+    ├── 04_search_helpers.R        # GWAS Catalog search logic
+    ├── 05_search_module.R         # Reusable Shiny search module
+    ├── 06_mr_helpers.R            # MR estimation wrappers
+    ├── 08_local_instruments.R     # Local SNP retrieval
+    └── server_original.R          # Shiny server function
+```
 
 ## License
 
